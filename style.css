@@ -17,3 +17,29 @@
 }
 
 
+.post-item h4 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 36px;
+}
+
+.contents {
+    width: 80vw;
+    max-width: 1000px;
+    margin: 10px auto;
+}
+.content-primary,
+.content-secondary {
+    padding-left: 0;
+    padding-right: 0;
+}
+.content-primary {
+    float: left;
+    width: 48%;
+}
+.content-secondary {
+    float: right;
+    width: 48%;
+}
+
+
