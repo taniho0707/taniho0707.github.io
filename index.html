@@ -1,3 +1,5 @@
+<!-- ブログ等のURL，受賞歴，ソースコード，その他自身のアピール -->
+
 <!DOCTYPE html>
 <html lang="ja">
   <head>
@@ -50,45 +52,41 @@
     <div class="container-fluid contents">
       <div class="row">
         <div class="col-xs-4 bg-info">
-          <center><h3>プロフィール</h3></center>
-          <h4>年齢</h4>
-          <p>21歳</p>
+          <center><h3>好きなこと</h3></center>
           <h4>OS</h4>
-          <p>ArchLinux, Ubuntu, Windows</p>
+          <p class="introduce">ArchLinux, Ubuntu, Windows</p>
           <h4>エディタ</h4>
-          <p>Emacs</p>
+          <p class="introduce">Emacs</p>
           <h4>趣味</h4>
-          <p>
+          <p class="introduce">
             非電源ゲーム<br>
             PCゲーム<br>
             電子工作
           </p>
         </div>
-        <div class="col-xs-4 bg-warning">
+        <div class="col-xs-3 bg-warning">
           <center><h3>言語</h3></center>
           <p>
             <ul>
               <li>C</li>
               <li>C++</li>
-              <li>C#</li>
-              <li>Java</li>
+              <li>C#(授業で扱った)</li>
+              <li>Java(授業で扱った)</li>
               <li>Python</li>
               <li>Perl</li>
-              <li>Qt</li>
-              <li>R</li>
-              <li>MySQL</li>
-              <li>Haskell</li>
+              <li>R(授業で扱った)</li>
+              <li>Haskell勉強中</li>
               <li>吉里吉里・TJS</li>
             </ul>
           </p>
         </div>
-        <div class="col-xs-4 bg-success">
-          <center><h3>関心分野</h3></center>
+        <div class="col-xs-5 bg-success">
+          <center><h3>所属</h3></center>
           <p>
             <ul>
-              <li>ネットワーク</li>
-              <li>セキュリティ</li>
-              
+              <li class="joinin">東京理科大学Mice(2014年4月〜)<br>部長(2015年12月〜2016年11月)</li>
+              <li class="joinin">のどかプラネタリウム(2013年4月〜)<br>代表</li>
+              <li class="joinin">電算機研究部(2010年4月〜2013年3月)<br>部長(2012年4月〜2013年3月)</li>
             </ul>
           </p>
         </div>
@@ -115,8 +113,12 @@
           <h3>概要</h3>
           <p>
             <a href="http://www.ntf.or.jp/mouse/" target="_blank">マイクロマウス大会</a>に出場するために製作したロボットです．
-            このロボットはハーフサイズ競技という小さなサイズのクラスに出場予定です．
-            ほげほげ
+            このロボットはハーフサイズ競技という小さなサイズのクラスに出場予定です．<br>
+            今回はとても小さなサイズなので，KiCadを用いて4層基板を設計しました．
+          </p>
+          <h3>ソースコード</h3>
+          <p>
+            <a href="https://github.com/taniho0707/tanitan2" target="_blank">taniho0707/tanitan2</a>
           </p>
           <h3>スペック</h3>
           <p>
@@ -146,21 +148,140 @@
         <article class="post-item">
           <header class="media post-item-header">
             <div class="media-body">
-              <h4 class="media-heading">other</h4>
-              <p class="updated">製作：unknown <img src="img/tanitanv2-1.png" class="img-responsive"></p>
+              <h4 class="media-heading">デレステ自動演奏機</h4>
+              <p class="updated">製作：2015年3月〜
+                <img src="img/atapon.jpg" class="img-responsive">
+                <img src="img/atapon2.jpg" class="img-responsive">
+              </p>
             </div>
           </header>
         </article>
       </div>
       <div class="content-primary">
         <div class="description">
-          <h3>案</h3>
+          <h3>概要</h3>
           <p>
-            デレステ自動演奏機<br>
-            早押ボタン<br>
-            マイクロマウスタイマー<br>
-            タニタンv1.0, v1.1<br>
-            マウス書き込み機
+            <a href="http://cinderella.idolmaster.jp/sl-stage/" target="_blank">アイドルマスターシンデレラガールズスターライトステージ</a>
+            という，スマートフォン向けのリズムゲームを自動でクリアさせようと思い立ち，自動演奏機を製作しました．<br>
+            制御用のソフトウェアは概ね完成しましたが，機械周りの精度不足によりうまく演奏ができません．<br>
+            そのため，RCサーボモータを自作し，アームの移動方法を変更し，確実に打鍵できるような仕組みに変更しようと考えています．
+          </p>
+          <h3>ソースコード</h3>
+          <p>
+            <a href="https://github.com/taniho0707/auto-sl-stage" target="_blank">taniho0707/auto-sl-stage</a>
+          </p>
+          <h3>プレイ動画</h3>
+          <p>
+            <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">こんなことやってる場合じゃないので短期間凍結します。そのうち完成させます。 <a href="https://t.co/LeUXynXp9W" target="_blank" rel="external">pic.twitter.com/LeUXynXp9W</a></p>&mdash; taniho/2 (@taniho_0707) <a href="https://twitter.com/taniho_0707/status/718776810096361472" target="_blank" rel="external">2016年4月9日</a></blockquote><br><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <main class="container-fluid contents">
+      <div class="content-primary">
+        <article class="post-item">
+          <header class="media post-item-header">
+            <div class="media-body">
+              <h4 class="media-heading">早押ボタン</h4>
+              <p class="updated">製作：2011年8月
+                <img src="img/hayaoshi1.jpg" class="img-responsive">
+                <img src="img/hayaoshi2.jpg" class="img-responsive">
+              </p>
+            </div>
+          </header>
+        </article>
+      </div>
+      <div class="content-secondary">
+        <div class="description">
+          <h3>概要</h3>
+          <p>
+            高校の文化祭でクイズ大会を主催し，その中で使うために早押ボタンを製作しました．<br>
+            このボタン単体でも使用することができますが，パソコンに接続して専用に製作したクイズソフトと連携動作させることもできます．
+          </p>
+          <h3>回路図</h3>
+          <p>
+            <img src="img/hayaoshicircuit.png" class="img-responsive">
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <main class="container-fluid contents">
+      <div class="content-secondary">
+        <article class="post-item">
+          <header class="media post-item-header">
+            <div class="media-body">
+              <h4 class="media-heading">マイクロマウスタイマー</h4>
+              <p class="updated">製作：2015年6月
+                <img src="img/timer1.jpg" class="img-responsive">
+                <img src="img/timer2.jpg" class="img-responsive">
+              </p>
+            </div>
+          </header>
+        </article>
+      </div>
+      <div class="content-primary">
+        <div class="description">
+          <h3>概要</h3>
+          <p>
+            私の所属するサークルでマイクロマウス交流大会を開催することになり，それに合わせて計測器を作ることにしました．<br>
+            このタイマーはマイクロマウス競技，サーキット競技，ロボトレーサー競技の3競技に対応しています．<br>
+            迷路の上にセンサを取り付け，その反射光の強度変化を見てスタート・ストップ検知をしています．
+          </p>
+          <h3>動画</h3>
+          <p>
+            <iframe width="420" height="315" src="https://www.youtube.com/embed/hnlkGc0maHU" frameborder="0" allowfullscreen></iframe>
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <main class="container-fluid contents">
+      <div class="content-primary">
+        <article class="post-item">
+          <header class="media post-item-header">
+            <div class="media-body">
+              <h4 class="media-heading">タニタンv1.0，v1.1</h4>
+              <p class="updated">製作：2014年6月〜2015年9月 <img src="img/tanitan1.jpg" class="img-responsive"></p>
+            </div>
+          </header>
+        </article>
+      </div>
+      <div class="content-secondary">
+        <div class="description">
+          <h3>概要</h3>
+          <p>
+            <a href="http://www.ntf.or.jp/mouse/" target="_blank">マイクロマウス大会</a>に出場するために製作した，初めてのロボットです．<br>
+            基板をKiCadで作成し，プリント基板は海外の製造業者に発注しました．
+            また，機械設計も自分で行い，CNCを使って部品を作成しました．
+            ソースコードは公開していませんが，プログラムもすべて自分で製作しています．
+          </p>
+          <h3>戦績</h3>
+          <p>
+            第35回全日本マイクロマウス大会 クラシックフレッシュマンクラス 第14位(決勝出場)
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <main class="container-fluid contents">
+      <div class="content-secondary">
+        <article class="post-item">
+          <header class="media post-item-header">
+            <div class="media-body">
+              <h4 class="media-heading">マウス書き込み機</h4>
+              <p class="updated">製作：2015年11月〜2016年2月 <img src="img/writer.jpg" class="img-responsive"></p>
+            </div>
+          </header>
+        </article>
+      </div>
+      <div class="content-primary">
+        <div class="description">
+          <h3>概要</h3>
+          <p>
+            前述したタニタンv2.0Hへの書き込みに使用する基板です．<br>
+            この基板は，書き込み機能と，ロボットに接続した電池への充電機能と，電池の残量を知らせる機能を持っています．
           </p>
         </div>
       </div>
@@ -176,8 +297,8 @@
         <article class="post-item">
           <header class="media post-item-header">
             <div class="media-body">
-              <h4 class="media-heading">タニタンv2.0H</h4>
-              <p class="updated">製作：2015年11月〜 <img src="img/tanitanv2-1.png" class="img-responsive"></p>
+              <h4 class="media-heading">CnvImg2Text</h4>
+              <p class="updated">製作：2015年9月 <a href="img/cnvimg2text.png" target="_blank"><img src="img/cnvimg2text.png" class="img-responsive"></a></p>
             </div>
           </header>
         </article>
@@ -186,57 +307,116 @@
         <div class="description">
           <h3>概要</h3>
           <p>
-            <a href="http://www.ntf.or.jp/mouse/" target="_blank">マイクロマウス大会</a>に出場するために製作したロボットです．
-            このロボットはハーフサイズ競技という小さなサイズのクラスに出場予定です．
-            ほげほげ
+            マイクロマウス大会で使われる迷路の写真を，テキスト形式の迷路に変換するツール群です．OpenCVの勉強がてら作成しました．<br>
+            画像の四隅を選択し，迷路のマス数を入力することで，迷路写真ををテキストデータに変換することができます．
+            また，C言語の配列形式にも変換可能です．
           </p>
-          <h3>スペック</h3>
+          <h3>ソースコード</h3>
           <p>
-            <table class="table">
-              <tbody>
-                <tr>
-                  <td>サイズ</td>
-                  <td>37x12x47mm</td>
-                </tr>
-                <tr>
-                  <td>重量</td>
-                  <td>18g</td>
-                </tr>
-                <tr>
-                  <td>マイコン</td>
-                  <td>STM32F405RG</td>
-                </tr>
-              </tbody>
-            </table>
+            <a href="https://github.com/taniho0707/CnvImg2Text" target="_blank">taniho_0707/CnvImg2Text</a>
           </p>
         </div>
       </div>
     </main>
-    
+
     <main class="container-fluid contents">
       <div class="content-secondary">
         <article class="post-item">
           <header class="media post-item-header">
             <div class="media-body">
-              <h4 class="media-heading">other</h4>
-              <p class="updated">製作：unknown <img src="img/tanitanv2-1.png" class="img-responsive"></p>
+              <h4 class="media-heading">思い継ぎ語り</h4>
+              <p class="updated">製作：2014年8月16日 <img src="img/omotsugi.jpg" class="img-responsive"></p>
             </div>
           </header>
         </article>
       </div>
       <div class="content-primary">
         <div class="description">
-          <h3>案</h3>
+          <h3>概要</h3>
           <p>
-            思い継ぎ語り<br>
-            迷路自動取得ソフト<br>
-            PathSim<br>
-            デレステ自動演奏機付属ソフト
+            コミックマーケット86にて初出展したときの作品です．<br>
+            吉里吉里を用いたノベルゲームです．ゲームサークル「のどかプラネタリウム」としての作品ですが，私は代表・プログラムとして参加しました．
+          </p>
+          <h3>作品詳細</h3>
+          <p>
+            <a href="http://nodokap.watson.jp/omo.html" target="_blank">思い継ぎ語り | のどかプラネタリウム</a>
           </p>
         </div>
       </div>
     </main>
 
+    <main class="container-fluid contents">
+      <div class="content-primary">
+        <article class="post-item">
+          <header class="media post-item-header">
+            <div class="media-body">
+              <h4 class="media-heading">score-sl-stage</h4>
+              <p class="updated">製作：2016年3月〜開発途中 <img src="img/scoreslstage.png" class="img-responsive"></p>
+            </div>
+          </header>
+        </article>
+      </div>
+      <div class="content-secondary">
+        <div class="description">
+          <h3>概要</h3>
+          <p>
+            前述した，デレステ自動演奏機の付属ソフトです．<br>
+            GUIベースのアプリケーションで演奏する譜面を作成できるようにする予定です．<br>
+            残念ながら未完成です．
+          </p>
+          <h3>ソースコード</h3>
+          <p><a href="https://github.com/taniho0707/score-sl-stage" target="_blank">taniho0707/score-sl-stage</a></p>
+        </div>
+      </div>
+    </main>
+
+    <main class="container-fluid contents">
+      <div class="content-secondary">
+        <article class="post-item">
+          <header class="media post-item-header">
+            <div class="media-body">
+              <h4 class="media-heading">PathSim</h4>
+              <p class="updated">製作：2015年11月〜 <img src="img/pathsim.png" class="img-responsive"></p>
+            </div>
+          </header>
+        </article>
+      </div>
+      <div class="content-primary">
+        <div class="description">
+          <h3>概要</h3>
+          <p>
+            マイクロマウスの経路導出をシミュレートするプログラムです．<br>
+            残念ながらまだ製作途中ですが，クリップボードにコピーした迷路情報データから，迷路を描画する部分までは完成しています．<br>
+          </p>
+          <h3>ソースコード</h3>
+          <p><a href="https://github.com/taniho0707/PathSim" target="_blank">taniho0707/PathSim</a></p>
+        </div>
+      </div>
+    </main>
+
+    <main class="container-fluid contents">
+      <div class="content-primary">
+        <article class="post-item">
+          <header class="media post-item-header">
+            <div class="media-body">
+              <h4 class="media-heading">4moku</h4>
+              <p class="updated">製作：2016年1月 <img src="img/4moku.png" class="img-responsive"></p>
+            </div>
+          </header>
+        </article>
+      </div>
+      <div class="content-secondary">
+        <div class="description">
+          <h3>概要</h3>
+          <p>
+            四目並べと呼ばれるゲームをテキストベースで作成しました．<br>
+            このときは，Cmakeとclangを初めて使いました．
+          </p>
+          <h3>ソースコード</h3>
+          <p><a href="https://github.com/taniho0707/4moku" target="_blank">taniho0707/4moku</a></p>
+        </div>
+      </div>
+    </main>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
